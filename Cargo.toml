@@ -1,0 +1,12 @@
+[package]
+name = "rust-rdbms"
+version = "0.1.0"
+authors = ["chansuke <chansuke@georepublic.de>"]
+edition = "2018"
+
+[dependencies]
+
+[[bin]]
+bench = false
+path = "src/main.rs"
+name = "rust-rdbms"
